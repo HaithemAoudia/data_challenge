@@ -1,0 +1,31 @@
+Data Quality Report
+===================
+
+Data Completeness:
+------------------
+- Run ID: 100.00% complete
+- Date_x: 99.66% complete
+- Process Start Time: 94.22% complete
+- Feed Type: 100.00% complete
+- Feed (g): 93.20% complete
+- Additive 1 (g): 91.84% complete
+- Additive 2 (g): 91.84% complete
+- Additive 3 (g): 20.41% complete
+- Run: 100.00% complete
+- Date_y: 99.32% complete
+- Weight before Drying: 92.18% complete
+- Weight after Drying: 71.09% complete
+- Output A (g): 72.11% complete
+- Speed (RPM): 96.94% complete
+
+Data Type Consistency:
+----------------------
+Inconsistent data types found: Column 'Feed (g)' may have inconsistent data types: Numerical and Unknown
+
+Date Mismatch:
+--------------
+There are 4 rows with mismatched dates between the feed data and output data files.
+
+Duplicates:
+-----------
+ The dataset contains 0 duplicates
