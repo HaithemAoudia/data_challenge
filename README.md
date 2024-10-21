@@ -15,6 +15,6 @@ In experiments, it is not uncommon to have erroneous data due to issues with the
 
 Based on my understanding of the data, I assume that the difference between the weight before and after drying could be an important metric. In similar fashion to the previous point, experts can define a reasonable percentage or absolute range for the difference between "Weight before Drying" and "Weight after Drying," based on experimental expectations. For example, if the weight loss exceeds or falls below a typical level, it could trigger a quality flag.
 
-#### 3. Handling Different Date and Time for Experiment Runs
+#### 3. Handling Discrepancy Dates for Experiment Runs:
 
 In some cases, there may be inconsistencies regarding the date the experiment was run between different files. An assumption I made was that the feed dataset had the correct date. However, I recommend validating what the source of truth date for the field experiment is and adjusting the pipeline accordingly if needed.
